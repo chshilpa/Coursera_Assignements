@@ -1,43 +1,63 @@
 *{
 	box-sizing: border-box;
-	margin:0px;
 }
 
 h1{
 	text-align: center;
-	font-size: 175%;
-	margin: 15px;
+	font-size: 200%;
+	font-family: sans-serif;
+	margin-top:30px;
 }
 
-div{
+.container{
 	position: relative;
-	box-sizing: border-box;
-	background-color: gray;
-	border: 1px solid black;
-	margin-left:1%;
-	margin-bottom:1%;
+	border: none;
+	margin-top:10px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	padding: 10px;
 }
 section {
+	background-color: lightgray;	
+	border: 1px solid black;
+	font-family: sans-serif;
+}
+#chicken{
+	background-color: pink;
 	position:relative;
-	top: 0;
-	left: 0;
 	float: right;
 	border: 1px solid black;	
 	font-size: 125%;
-	width: 18%;
-	text-align: center;	
-}
-#sec1{
-	background-color: pink;
+	width: 30%;
+	text-align: center;
+	padding: 5px;
+	overflow:auto;
 }
 
-#sec2{
+#beef{
 	background-color: blue;
 	color:white;
+	position:relative;
+	float: right;
+	border: 1px solid black;	
+	font-size: 125%;
+	width: 30%;
+	text-align: center;
+	padding: 5px;
+	overflow:auto;
 }
 
-#sec3{
+#sushi{
 	background-color: tan;
+	position:relative;
+	float: right;
+	border: 1px solid black;	
+	font-size: 125%;
+	width: 30%;
+	text-align: center;
+	padding: 5px;
+	overflow:auto;
 }
 p{
 	clear:both;
@@ -48,7 +68,7 @@ p{
 @media (min-width: 992px){
 	.desktop{
 		float: left;
-		width:32%;
+		width:33.3%;
 
 	}
 	
@@ -57,11 +77,11 @@ p{
 @media (min-width: 768px) and (max-width: 991px){
 	.tablet{
 		float: left;
-		width:48.5%;
+		width:50%;
 	}
 	.tablet_2{
 		float: left;
-		width:98%;
+		width:100%;
 	}
 	
 }
@@ -70,7 +90,7 @@ p{
 @media (max-width: 767px){
 	.mobile{
 		float: left;
-		width:98%;
+		width:100;
 	}
 	
 }
